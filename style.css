@@ -1,0 +1,329 @@
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: #49a6e9;
+  /* --clr-primary-5: rgb(73, 166, 233); */
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 100%;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+header {
+  background-image: url(https://www.presidency.eg/media/93877/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%81%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A-black-one-finljpg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+ header p {
+font-size: 50px;
+ }
+header a {
+  background-color: blue;
+}
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+header h1{
+  font-size: 75px
+}
+#i p{
+  font-size: 30px;
+}
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: url("https://defense-arab.com/vb/attachments/601924/");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.caption {
+  color: #000000;
+  font-size: 16px;
+  background-color: rgba(250, 161, 176, 0.76);
+  padding: 10px;
+  border-radius: 10px;
+  height: 270px;
+  width: 300px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.b {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+#img {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+.imgs3 {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto auto auto;
+  position: relative;
+  bottom: 15px;
+}
+
+.imgs3 .i1, .imgs3 .i2, .imgs3 .i3, .imgs3 .i4, .imgs3 .i5, .imgs3 .i6, .imgs3 .i7, .imgs3 .i8, .imgs3 .i9, .imgs3 .i10, .imgs3 .i11, .imgs3 .i12 {
+  text-align: center;
+
+}
+.h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.m3 {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#img img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.m4 {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.imgs3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto; 
+
+}
+.imgs4 .i1, .imgs4 .i2, .imgs4 .i3, .imgs4 .i4, .imgs4 .i5, .imgs4 .i6{
+  text-align: center;
+
+}
+.imgs1{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto auto;
+ 
+}
+.m1{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.h3{
+  font-size: 25px;
+}
+
+
+
+.modal-btn:hover {
+  background: transparent;
+  color: var(--clr-primary-5);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(73, 166, 233, 0.5);
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+  visibility: hidden;
+
+}
+
+/* OPEN/CLOSE MODAL */
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
+
+.modal-container {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  height: 100%;
+  width: 100%;
+  max-width: var(--fixed-width);
+  text-align: center;
+  display: grid;
+  place-items: center;
+  position: relative;
+
+}
+.imgs4{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+ 
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-red-dark);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  color: var(--clr-red-light);
+  transform: scale(1.3);
+}
+
+
+.modal-btn {
+  margin-top: 2rem;
+  background: var(--clr-primary-5);
+  border-color: var(--clr-primary-5);
+  color: var(--clr-black);
+}
+
+.modal-btn:hover {
+  background: transparent;
+  color: var(--clr-primary-5);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(73, 166, 233, 0.5);
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+  visibility: hidden;
+  z-index: -10;
+}
+
+/* OPEN/CLOSE MODAL */
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
+
+
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-red-dark);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  color: var(--clr-red-light);
+  transform: scale(1.3);
+}
